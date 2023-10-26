@@ -1,0 +1,195 @@
+@font-face {
+    font-family: 'samsungone';
+    src: url(samsungone-cufonfonts/SamsungOne-400.ttf);
+}
+@font-face {
+    font-family: 'samsungsharpsanc';
+    src: url(samsung-sharp-sans-cufonfonts/samsungsharpsans-bold.otf);
+}  
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    font-weight: 900;
+    font-family: 'samsungone';
+    font-size: 14px;
+}
+.text-block-container__headline-wrap{
+    text-align: center;
+}
+.text-block-container__headline{
+    font-size: 38px;
+    font-family: 'samsungsharpsanc';
+    color: #000;
+    padding-top: 30px;
+}
+.nav-link{
+    font-family: 'samsungone';
+    color: #000;
+}
+#myTab{
+    font-family: 'samsungone';
+    color: #000;
+    text-align: center;
+    font-size: 10px;
+    
+}
+.nav-slide{
+    font-family: 'samsungone';
+    color: #000000;
+    font-size: 1.5vw;
+    margin-left: 2vw;
+}
+#slide1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: lighter;
+}
+.nav-slide:hover {
+    text-decoration: none;
+    color: #000000;
+}
+.nav-galaxy:hover{
+    text-decoration: none;
+    color: #ffffff;
+}
+.nav-galaxy{
+    font-family: 'samsungone';
+    color: #ffffff;
+    font-size: 1vw;
+    margin-left: 2vw;
+    background-color: #000000;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 10px;
+    padding: 5px;
+    text-decoration: n;
+     border: 2px solid white; 
+}
+.searchbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.insidesearchbar{
+    height: 40px;
+    width: 400px;
+    border: 2px solid rgb(53, 53, 53);
+    margin-top: 10px;
+}
+.inside-div{
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 18vw;
+}
+.tab-pane fade show active{
+    color: #fff;
+}
+.parah{
+    color: #3b3b3b;
+    font-size: 12px;
+    font-family: 'samsungone';
+}
+.row para{
+    margin-top: 40px;
+}
+#ftr1{
+    border-top: 1px solid rgb(190, 190, 190);    
+}
+#ftr2{
+    border-top: 1px solid rgb(190, 190, 190);
+    border-bottom: 1px solid rgb(190, 190, 190);
+}
+#ftr3{
+    border-top: 1px solid rgb(190, 190, 190);
+    border-left: 1px solid rgb(190, 190, 190);
+    border-bottom: 1px solid rgb(190, 190, 190);
+}
+#ftr4{
+    border-top: 1px solid rgb(190, 190, 190);
+    border-left: 1px solid rgb(190, 190, 190);
+    border-bottom: 1px solid rgb(190, 190, 190);
+}
+#ftr5{
+    border-top: 1px solid rgb(190, 190, 190);
+    border-left: 1px solid rgb(190, 190, 190);
+    border-bottom: 1px solid rgb(190, 190, 190);
+}
+#ftr6{
+    border-top: 1px solid rgb(190, 190, 190);
+    border-left: 1px solid rgb(190, 190, 190);
+    border-bottom: 1px solid rgb(190, 190, 190);
+}
+.ftr{
+    padding: 7px;
+    font-size: 14px;
+    line-height: 28px;
+    color: #555555;
+    font-family: 'samsungone';
+}
+#parah2{
+    margin-top: 20px;
+    margin-left: 5vw;
+}
+#parah1{
+    margin-left: 10vw;
+    line-height: 28px;
+    margin-top: 80px;
+}
+#navmar{
+    margin-left: 13vw;
+}
+#srch{
+    font-size: 22px;
+    color: #555555;
+}
+#purs{
+    font-size: 22px;
+    color: #555555;
+    margin-left: 7px;
+}
+#usr{
+    font-size: 22px;
+    color: #555555;
+    margin-left: 7px;
+}
+#icondiv{
+    padding-top: 15px;
+}
+#ended{
+    margin-left: 4vw;
+    color: #000;
+    font-weight: 800;
+}
+#line{
+    border-bottom: 1px solid rgb(190, 190, 190);
+    margin-left: 4vw;
+    margin-right: 4vw;
+}
+.last{
+    margin-left: 1.5vw;
+    font-size: 12px;
+    color: #555555;
+    font-family: 'samsungone';
+    font-weight: 100;
+}
+#lastfoot{
+    padding: 30px;
+}
+.icons{
+    font-size: 22px;
+    color: #000000;
+    margin-left: 7px;
+    font-weight: 900;
+}
+.hedln{
+    margin-top: 20px;
+    margin-left: 7px;
+}
+#searchbar{
+    height: 50px;
+    border-radius: 25px;
+    border:1px solid rgb(135, 135, 135);
+}
